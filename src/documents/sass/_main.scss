@@ -1,0 +1,9 @@
+body {
+  background: #ddd;
+  h2 {
+    color: green;
+    @include breakpoint( 500px ) {
+      color: red;
+    }
+  }
+}

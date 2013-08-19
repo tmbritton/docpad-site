@@ -2,6 +2,15 @@
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
 
+  # Should contain the plugin short names on the left, and the configuration to pass the plugin on the right	
+	enabledPlugins:
+		stylus: false
+	plugins:
+		sass:
+			outputStyle: 'expanded'
+			requireLibraries: ['breakpoint', 'sassy-buttons', 'singularitygs']
+			compass: true
+
 	# =================================
 	# Template Data
 	# These are variables that will be accessible via our templates
@@ -134,6 +143,7 @@ docpadConfig = {
 
 			# Chain
 			@
+
 }
 
 # Export our DocPad Configuration

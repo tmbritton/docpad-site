@@ -13,7 +13,7 @@
   },
   "cssmin": {
     "all": {
-      "src": ["out/styles/all.css"],
+      "src": ["out/styles/all.css", "out/styles/screen.css"],
       "dest": "out/styles/all.min.css"
     }
   }
